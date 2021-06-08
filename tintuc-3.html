@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Bài viết mới nhất</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			font-family: "Maven Pro", sans-serif;
+			font-size: 16px;
+			color: #262e36;
+			line-height: 1;
+		}
+
+		img {
+			display: block;
+			max-width: 100%;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.wrapper {
+			max-width: 1440px;
+			margin: 0 auto;
+		}
+
+		.container {
+			max-width: 1170;
+			padding: 0 15px;
+			margin: 0 auto;
+		}
+
+		.blog-list {
+			display: flex;
+			flex-direction: column;
+			max-width: 630px;
+			margin: 50px 0px;
+		}
+
+		.blog-item {
+			display: flex;
+			align-items: flex-start;
+			margin-bottom: 30px;
+		}
+
+		.blog-image {
+			margin-right: 20px;
+		}
+
+		.blog-body {
+			flex: 1;
+		}
+
+		.blog-title {
+			font-size: 15px;
+			color: #333333;
+			font-weight: 500;
+			margin-bottom: 15px;
+			display: inline-block;
+		}
+
+		.blog-paragraph--date {
+			font-size: 14px;
+			color: #555555;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		}
+
+		.blog-paragraph {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 1.5;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			word-break: break-word;
+			margin-bottom: 7px;
+		}
+
+		.btn {
+			display: inline-block;
+			border: 0;
+			text-decoration: none;
+			background-color: #333333;
+			padding: 11px 10px 11px;
+		}
+
+		.blog-btn--detail {
+			text-transform: uppercase;
+			color: white;
+		}
+
+		#footer {
+			display: flex;
+			background-color: #F5F5F5;
+			padding: 5% 0;
+			margin-left: 60px;
+		}
+
+		.footer-column {
+			margin-right: 30px;
+		}
+
+		.footer-heading {
+			margin-bottom: 25px;
+			font-size: 14px;
+			font-weight: 500;
+			color: #777777;
+			text-transform: uppercase;
+		}
+
+		.footer-paragraph {
+			font-size: 16px;
+			font-weight: 400;
+			margin-bottom: 15px;
+		}
+
+		.footer-paragraph span {
+			font-weight: 600;
+		}
+
+		.footer-links {
+			list-style: none;
+		}
+
+		.footer-link-item {
+			margin-bottom: 7px;
+		}
+
+		.footer-link {
+			text-decoration: none;
+			font-weight: 400px;
+			color: #333333;
+		}
+
+		.footer-link:hover {
+			color: red;
+		}
+
+		.footer-social {
+			display: inline-flex;
+		}
+
+		.footer-social-link {
+			width: 36px;
+			height: 36px;
+			border-radius: 50%;
+			color: #333333;
+			font-size: 25px;
+			border: 1px solid #333333;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.footer-social-link:not(:last-child) {
+			margin-right: 15px;
+		}
+	</style>
+</head>
+		
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<section class="blog">
+				<div class="blog-list">
+					<div class="blog-item">
+						<div class="blog-image">
+							<a><img src="09865.jpg"/></a>
+						</div>
+						<div class="blog-body">
+							<a href="#" class="blog-title">Black Rouge Half N Half Collection</a>
+							<p class="blog-paragraph--date">Feb 09, 2021 | Sản phẩm</p>
+							<p class="blog-paragraph">
+								Là con gái chắc hẳn ai cũng sở hữu riêng cho mình một thỏi son yêu thích. Với con gái đánh son 
+							</p>
+							<a href="#" class="btn blog-btn--detail">Chi tiết</a>
+						</div>
+					</div>
+					<div class="blog-item">
+						<div class="blog-image">
+							<a><img src="12345.jpg"/></a>
+						</div>
+						<div class="blog-body">
+							<a href="#" class="blog-title">Black Rouge Half N Half Collection</a>
+							<p class="blog-paragraph--date">Feb 09, 2021 | Sản phẩm</p>
+							<p class="blog-paragraph">
+								Mở đầu cho năm 2021, Black Rouge ra mắt bộ sưu tập son mới Half N Half Collection hứa hẹn sẽ .
+							</p>
+							<a href="#" class="btn blog-btn--detail">Chi tiết</a>
+						</div>
+					</div>
+					<div class="blog-item">
+						<div class="blog-image">
+							<a><img src="45678.jpg"/></a>
+						</div>
+						<div class="blog-body">
+							<a href="#" class="blog-title">Black Rouge x fime.vn x KaT Jewelry - INTO THE VINTAGE</a>
+							<p class="blog-paragraph--date">Feb 09, 2021 | Sản phẩm</p>
+							<p class="blog-paragraph">
+								Nhận ngay 1 Voucher Giảm 15% Kat Jewelry khi mua đơn hàng Black Rouge bất kỳ tại .
+							</p>
+							<a href="#" class="btn blog-btn--detail">Chi tiết</a>
+						</div>
+					</div>
+					<div class="blog-item">
+						<div class="blog-image">
+							<a><img src="98765.jpg"/></a>
+						</div>
+						<div class="blog-body">
+							<a href="#" class="blog-title">Black Rouge Trending - Minimal Makeupn</a>
+							<p class="blog-paragraph--date">Feb 09, 2021 | Sản phẩm</p>
+							<p class="blog-paragraph">
+								Minimal Makeup được định nghĩa là một xu hướng trang điểm mang hơi hướng đơn giản và tối giản hết .
+							</p>
+							<a href="#" class="btn blog-btn--detail">Chi tiết</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container" id="footer">
+			<div class="footer-column">
+				<h3 class="footer-heading">Thương hiệu</h3>
+				<p class="footer-paragraph">Legal Entity | <span>Black Rouge Việt Nam</span></p>
+				<p class="footer-paragraph">Địa chỉ | Tầng 10, 194 Golden Building, 473 Điện Biên Phủ, Phường 25, Bình Thạnh, Hồ Chí Minh</p>
+				<p class="footer-paragraph">Copyright © 2021 DM&C. All rights reserved.</p>
+			</div>
+			<div class="footer-column">
+				<h3 class="footer-heading">Chính sách</h3>
+				<ul class="footer-links">
+					<li class="footer-link-item">
+						<a href="#" class="footer-link">Chính sách bảo mật</a>
+					</li>
+					<li class="footer-link-item">
+						<a href="#" class="footer-link">Chính sách đổi trả và hoàn tiền</a>
+					</li>
+					<li class="footer-link-item">
+						<a href="#" class="footer-link">Chính sách vận chuyển và giao nhận</a>
+					</li>
+					<li class="footer-link-item">
+						<a href="#" class="footer-link">Quy định và hình thức thanh toán</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-column">
+				<h3 class="footer-heading">Liên hệ</h3>
+				<p class="footer-paragraph">Hotline | 0909 312 350</span></p>
+				<p class="footer-paragraph">Email support | cskh@dmnc.vn Or blackrougevn@gmail.com</span></p>
+				<div class="footer-social">
+					<a href="#" class="footer-social-link">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="footer-social-link">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a href="#" class="footer-social-link">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>	
+</body>
+</html>
